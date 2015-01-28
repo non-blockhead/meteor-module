@@ -1,10 +1,15 @@
 Module.register('module' {
-  settings: {
+  module_settings: {
     /**
-     * True if the module has settings that should be part of the user profile page.
-     * You should define these settings in a template named "<module>ProfileSettings" where
-     * module is the module name used to register.
+     * Settings for the user module are defined here.
      */
-    profile: false
+    user: {
+      /**
+       * True if the module has settings that should be part of the user profile page.
+       * You should put these settings in a template named "<module>ProfileSettings" where
+       * module is the module name used to register.
+       */
+      profile: false
+    }
   }
 });
