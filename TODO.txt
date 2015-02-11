@@ -1,0 +1,2 @@
+- Build a metiator to isolate modules. Add subscribe and publish funationality, see:
+  http://addyosmani.com/largescalejavascript/

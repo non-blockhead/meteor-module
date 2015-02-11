@@ -5,12 +5,12 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom("METEOR@0.9.0");
+  api.versionsFrom("METEOR@1.0");
 
   api.use(['underscore'], ['client', 'server']);
 
   api.export('Module');
 
-  api.add_files(['common.js'], ['client', 'server']);
+  api.add_files(['module.js', 'mediator.js'], ['client', 'server']);
 
 });
